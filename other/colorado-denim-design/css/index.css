@@ -1,0 +1,139 @@
+*{
+  margin: 0px;
+}
+
+header{
+  display: block;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+#nav li{
+  list-style-type: none;
+  display: block;
+  float: right;
+  background-color: white;
+  padding-right: 50px;
+}
+
+#nav li a{
+    font-family: 'Fjalla One', sans-serif;
+    display: block;
+    text-decoration: none;
+    color: #4a4444;
+    font-size: 25px;
+}
+
+#logo{
+  float: left;
+}
+
+#nav li a:hover{
+  transition: all .3s linear;
+  -ms-transition: all .3s linear;
+  color: #01397F;
+}
+
+#head-container{
+  position: relative;
+  text-align: center;
+}
+
+.center{
+  position: absolute;
+  font-size: 100px;
+  font-family: 'Fjalla One', sans-serif;
+  opacity: 0.5;
+  color: #F4F4F4;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#featuring-caption{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  color:#4a4444;
+  padding-bottom: 125px; 
+}
+
+#body-container{
+  display: block;
+  text-align: center;
+  padding-top: 125px;
+  background-color: #F4F4F4;
+  color: #4a4444;
+}
+
+h3{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 40px;
+}
+
+#homepgimg{ 
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#left-image{
+  width: 38%;
+  height: 38%;
+  float: left;
+  padding: 30px;
+}
+
+#left{
+  display: block;
+  padding-left: 190px;
+}
+
+#about-caption{
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: left;
+  padding: 30px;
+  font-size: large;
+  padding-bottom: 125px;
+}
+
+#right{
+  display: block;
+  padding-right: 190px;
+  padding-left: 190px;
+}
+
+#bar{
+  color:#F4F4F4;
+  font-size: xx-small;
+}
+
+#read-more-button a{
+  position: relative;
+  font-family: 'Fjalla One', sans-serif;
+  text-align: center;
+  font-size: 25px;
+  text-decoration: underline;
+  color: #cfcfcf;
+}
+
+#read-more-button{
+  padding-bottom: 50px; 
+}
+
+#buffalo-icon{
+  width: 60px;
+  display: block;
+  float: left;
+  padding-right: 20px;
+}
+
+footer{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  background-color: white;
+  color: #4a4444;
+  padding: 60px;
+  padding-left: 70px;
+  position: static;
+}
